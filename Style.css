@@ -1,0 +1,250 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url(Beach-BG_1920X1079.jpg) no-repeat center center fixed;
+    background-size: cover; 
+    font-family: 'Lato', sans-serif;
+    font-family: 'Space Mono', monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.pack{
+    padding: 60px;
+    width: 400px;   
+    background: rgba( 0, 0, 0, 0.8);
+    box-sizing: border-box;
+    border-radius: 15px;
+    box-shadow: 0px 15px 25px rgba( 0, 0, 0, 0.4);
+}    
+h1{
+    padding: 0%;
+    color: aliceblue;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.sub input{
+    background-color: #2887c8;
+    border: none;
+    color: aliceblue;
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 10px;
+    width: 100%;
+}
+.sub{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input{
+    position: relative;
+}
+.input label{
+    position: absolute;
+    color: aliceblue;
+    top: 0px;
+    left: 0px;
+    padding-top: 10px;
+    font-size: 18px;
+    transition: 0.5s;
+    pointer-events: none;
+}
+.input input{
+    color: aliceblue;
+    padding-top: 14px;
+    padding-bottom: 0px ;
+    margin:0px 0px 30px ;
+    width: 100%;
+    font-size: 18px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid aliceblue;
+}
+.input input:focus + label, input:valid + label
+{
+    top: -16px;
+    left: 0px;
+    color: #2887c8;
+    font-size: 14px;
+}
+.checkbox{
+    color: aliceblue;
+    padding: 10px 10px 10px 0px;
+    
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .pack{
+        padding: 80px;
+        width: 440px;   
+    }   
+  }
+  @media only screen and (max-width: 840px) , screen and (max-height:450px ) {
+    .pack{
+        padding: 20px;
+        width: 300px;  
+    }   
+  } 
+  @media only screen and (max-width: 667px) , screen and (max-height:375px ) {
+    .pack{
+        padding: 16px;
+        width: 300px;  
+    }   
+  } 
+/* @media only screen and (max-width: 992px) {
+    .pack{
+        padding: 60px;
+        width: 400px;   
+        
+    }   
+  }  */
+/* @media only screen and (max-width: 768px) {
+    .pack{
+        padding: 40px;
+        width: 360px;   
+    }   
+  }  */
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .pack{
+        padding: 25px;
+        width: 325px;   
+  }
+  
+
+@media only screen
+  /* and (min-device-width: 320px) */
+  and (max-device-width : 568px){
+    .sub input{
+        background-color: #2887c8;
+        border: none;
+        color: aliceblue;
+        cursor: pointer;
+        border-radius: 20px;
+        padding: 10px;
+        width: 100%;
+    }
+    .sub{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .pack{
+        padding: 20px;
+        width: 270px;   
+        background: rgba( 0, 0, 0, 0.8);
+        box-sizing: border-box;
+        border-radius: 15px;
+        box-shadow: 0px 15px 25px rgba( 0, 0, 0, 0.4);
+    }
+    h1{
+        font-size: xx-large;
+        padding: 0%;
+        color: aliceblue;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .input{
+        position: relative;
+    }
+    .input label{
+        position: absolute;
+        color: aliceblue;
+        top: 0px;
+        left: 0px;
+        padding-top: 5px;
+        font-size: 14px;
+        transition: 0.5s;
+        pointer-events: none;
+    }
+    .input input{
+        color: aliceblue;
+        padding-top: 8px;
+        padding-bottom: 0px ;
+        margin:0px 0px 20px ;
+        width: 100%;
+        font-size: 14px;
+        background: transparent;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid aliceblue;
+    }
+    .input input:focus + label, input:valid + label
+        {
+            top: -16px;
+            left: 0px;
+            color: #2887c8;
+            font-size: 11px;
+        }
+  }
+
+@media only screen
+  and (min-device-width: 240px)
+  and (max-device-width : 319px) {
+            .sub input{
+                background-color: #2887c8;
+                border: none;
+                color: aliceblue;
+                cursor: pointer;
+                border-radius: 20px;
+                padding: 10px;
+                width: 100%;
+            }
+            .sub{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .pack{
+                padding: 10px;
+                width: 220px;   
+                background: rgba( 0, 0, 0, 0.8);
+                box-sizing: border-box;
+                border-radius: 15px;
+                box-shadow: 0px 15px 25px rgba( 0, 0, 0, 0.4);
+            }
+            h1{
+                font-size: xx-large;
+                padding: 0%;
+                color: aliceblue;
+                text-align: center;
+                margin-bottom: 10px;
+            }
+            .input{
+                position: relative;
+            }
+            .input label{
+                position: absolute;
+                color: aliceblue;
+                top: 0px;
+                left: 0px;
+                padding-top: 5px;
+                font-size: 14px;
+                transition: 0.5s;
+                pointer-events: none;
+            }
+            .input input{
+                color: aliceblue;
+                padding-top: 8px;
+                padding-bottom: 0px ;
+                margin:0px 0px 20px ;
+                width: 100%;
+                font-size: 14px;
+                background: transparent;
+                border: none;
+                outline: none;
+                border-bottom: 1px solid aliceblue;
+            }
+            .input input:focus + label, input:valid + label
+                {
+                    top: -16px;
+                    left: 0px;
+                    color: #2887c8;
+                    font-size: 11px;
+                }
+    }
+}
