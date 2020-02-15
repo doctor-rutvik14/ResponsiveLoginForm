@@ -108,7 +108,8 @@ h1{
         width: 360px;   
     }   
   }  */
-  /* Extra small devices (phones, 600px and down) */
+/* Extra small devices (phones, 600px and down) */
+/* Extra small devices */
 @media only screen and (max-width: 600px) {
     .pack{
         padding: 25px;
